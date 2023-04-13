@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TokenNet6.props" />
+</Project>
