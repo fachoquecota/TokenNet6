@@ -23,10 +23,10 @@ BEGIN
     WHERE Username = @VCH_Username AND PasswordHash = HASHBYTES('SHA2_256', @VCH_Password)
   )
   BEGIN
-    SELECT 1 AS IsValid;
+    SELECT 1 AS Result;
   END
   ELSE
   BEGIN
-    SELECT 0 AS IsValid;
+    SELECT 0 AS Result;
   END
 END
