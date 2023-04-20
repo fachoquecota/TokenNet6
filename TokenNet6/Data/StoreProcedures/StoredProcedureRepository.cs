@@ -8,6 +8,9 @@ namespace TokenNet6.Data.StoreProcedures
     {
         public List<DBBoolResult> LoginValitation(LoginModel loginModel)
         {
+            //* Utilizamos DBBoolResult de tipo Models para recepcionar la información porque
+            //* cabe la posibilidad de que se aumenten más columnas en la respuesta del procedimiento almacenado
+            //* es posible usar otro método para aumentar las columnas sin necesida de cambiar este código
             var oList = new List<DBBoolResult>();
             try
             {
@@ -25,7 +28,7 @@ namespace TokenNet6.Data.StoreProcedures
                         {
                             oList.Add(new DBBoolResult()
                             {
-                                result = dr["Result"].ToString(),
+                                result = Convert.ToInt32(dr["Result"]),
                             });
                         }
                     }

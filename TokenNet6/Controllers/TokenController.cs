@@ -23,7 +23,7 @@ namespace TokenNet6.Controllers
 
         [HttpGet]
         [Route("GetTokenLogin")]
-        public dynamic GetToken(LoginModel loginModel)
+        public dynamic GetToken([FromQuery] LoginModel loginModel)
         {
             var result = _tokenNet.LoginValitation(loginModel);
 

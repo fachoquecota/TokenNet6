@@ -4,6 +4,6 @@ namespace TokenNet6.Models
     public class DBBoolResult
     {
         [Required]
-        public string? result { get; set; }
+        public int result { get; set; }
     }
 }

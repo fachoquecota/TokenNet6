@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\choquecota\\Documents\\GitHub\\TokenNet6\\TokenNet6\\TokenNet6.csproj": {}
+    "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\TokenNet6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\choquecota\\Documents\\GitHub\\TokenNet6\\TokenNet6\\TokenNet6.csproj": {
+    "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\TokenNet6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\choquecota\\Documents\\GitHub\\TokenNet6\\TokenNet6\\TokenNet6.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\TokenNet6.csproj",
         "projectName": "TokenNet6",
-        "projectPath": "C:\\Users\\choquecota\\Documents\\GitHub\\TokenNet6\\TokenNet6\\TokenNet6.csproj",
-        "packagesPath": "C:\\Users\\choquecota\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\choquecota\\Documents\\GitHub\\TokenNet6\\TokenNet6\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\TokenNet6.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\choquecota\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -67,8 +67,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -80,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

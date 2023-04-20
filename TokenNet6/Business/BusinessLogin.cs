@@ -12,7 +12,8 @@ namespace TokenNet6.Business
             string result = "Ocurrió un error al procesar la solicitud.";
 
             var resultSP = SPR.LoginValitation(loginModel);
-            bool dataSPBool = bool.Parse(resultSP[0].result);
+            bool dataSPBool = resultSP[0].result.Equals(1);
+            //bool dataSPBool = bool.Parse(resultSP[0].result);
             if (dataSPBool is true)
             {
                 result = "Sesión exitosa!";
