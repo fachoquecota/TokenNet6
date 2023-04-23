@@ -1,10 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.Security.Claims;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Text;
-using TokenNet6.Business;
+﻿using Microsoft.AspNetCore.Mvc;
 using TokenNet6.Interfaces;
 using TokenNet6.Models;
 
@@ -15,11 +9,13 @@ namespace TokenNet6.Controllers
     public class TokenController : ControllerBase
     {
         private readonly ITokenNet _tokenNet;
-        public TokenController(ITokenNet tokenNet)
+        private readonly ITokenService _tokenService;
+
+        public TokenController(ITokenNet tokenNet, IConfiguration configuration, ITokenService tokenService)
         {
             _tokenNet = tokenNet;
+            _tokenService = tokenService;          
         }
-
 
         [HttpGet]
         [Route("GetTokenLogin")]
@@ -27,10 +23,15 @@ namespace TokenNet6.Controllers
         {
             var result = _tokenNet.LoginValitation(loginModel);
 
+            if (result is null)
+                return BadRequest(new { message = "Credenciales incorrectas" });
+
+            string jwtToken = _tokenService.GenerateToken(result);
+
             return new
             {
-                mensaje = result
+                message = jwtToken
             };
-        }
+        }      
     }
 }

@@ -5,24 +5,18 @@ namespace TokenNet6.Business
 {
     public class BusinessLogin : ITokenNet
     {
-        StoredProcedureRepository SPR = new StoredProcedureRepository();
+        private readonly ISprBusiness _sprBusiness;
 
-        public string LoginValitation(LoginModel loginModel)
+        public BusinessLogin(ISprBusiness sprBusiness)
         {
-            string result = "Ocurrió un error al procesar la solicitud.";
-
-            var resultSP = SPR.LoginValitation(loginModel);
-            bool dataSPBool = resultSP[0].result.Equals(1);
-            //bool dataSPBool = bool.Parse(resultSP[0].result);
-            if (dataSPBool is true)
-            {
-                result = "Sesión exitosa!";
-            }
-            else
-            {
-                result = "Usuario o contraseña incorrecta.";
-            }
-            return result;
+            _sprBusiness = sprBusiness;
         }
+        public LoginModel LoginValitation(LoginModel loginModel)
+        {
+            var resultSP = _sprBusiness.LoginValitation(loginModel);
+            bool dataSPBool = resultSP.Count > 0 && resultSP[0].result.Equals(1);
+            return dataSPBool ? loginModel : default(LoginModel);
+        }
+
     }
 }

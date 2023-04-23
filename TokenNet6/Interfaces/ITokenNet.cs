@@ -4,6 +4,6 @@ namespace TokenNet6.Interfaces
 {
     public interface ITokenNet
     {
-        string LoginValitation(LoginModel loginModel);
+        LoginModel LoginValitation(LoginModel loginModel);
     }
 }

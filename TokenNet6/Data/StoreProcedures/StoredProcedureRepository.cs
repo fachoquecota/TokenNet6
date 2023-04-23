@@ -1,10 +1,11 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
+using TokenNet6.Interfaces;
 using TokenNet6.Models;
 
 namespace TokenNet6.Data.StoreProcedures
 {
-    public class StoredProcedureRepository
+    public class StoredProcedureRepository : ISprBusiness
     {
         public List<DBBoolResult> LoginValitation(LoginModel loginModel)
         {

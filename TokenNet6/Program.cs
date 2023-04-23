@@ -1,6 +1,7 @@
 using TokenNet6.Business;
 using TokenNet6.Data.StoreProcedures;
 using TokenNet6.Interfaces;
+using TokenNet6.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ITokenNet, BusinessLogin>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<ISprBusiness, StoredProcedureRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
