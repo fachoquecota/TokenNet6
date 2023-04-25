@@ -1,14 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "kNcSx1T9Zyas4/IzOBP5H0vuTcFWrtIFY8yrefIFMTSvfGD/oFu+1bL9Q+BFvm5fB8Hid08nz2Rs3Yd7s6pA9Q==",
+  "dgSpecHash": "Ui2QqRA1m6CuU3uPJ9VVS1NIbIP6hYSNryjsYZ3W81MYGIAo4RARX27iL2UafIhDdUWtmg9iL2pT4SIuznzLPQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\TokenNet6.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.16\\microsoft.aspnetcore.authentication.jwtbearer.6.0.16.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.28.1\\microsoft.identitymodel.abstractions.6.28.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.28.1\\microsoft.identitymodel.jsonwebtokens.6.28.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.logging\\6.28.1\\microsoft.identitymodel.logging.6.28.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.10.0\\microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.28.1\\microsoft.identitymodel.tokens.6.28.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

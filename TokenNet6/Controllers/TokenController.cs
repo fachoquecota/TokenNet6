@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TokenNet6.Interfaces;
 using TokenNet6.Models;
 
 namespace TokenNet6.Controllers
 {
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class TokenController : ControllerBase
@@ -17,7 +19,7 @@ namespace TokenNet6.Controllers
             _tokenService = tokenService;          
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("GetTokenLogin")]
         public dynamic GetToken([FromQuery] LoginModel loginModel)
         {

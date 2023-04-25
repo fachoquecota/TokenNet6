@@ -79,3 +79,6 @@ C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6
 C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\TokenNet6.pdb
 C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\TokenNet6.genruntimeconfig.cache
 C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\ref\TokenNet6.dll
+C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
