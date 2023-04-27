@@ -11,11 +11,23 @@ namespace TokenNet6.Business
         {
             _sprBusiness = sprBusiness;
         }
-        public LoginModel LoginValitation(LoginModel loginModel)
+        public DBBoolResult LoginValitation(LoginModel loginModel)
         {
+            var oList = new DBBoolResult();
             var resultSP = _sprBusiness.LoginValitation(loginModel);
             bool dataSPBool = resultSP.Count > 0 && resultSP[0].result.Equals(1);
-            return dataSPBool ? loginModel : default(LoginModel);
+            if (dataSPBool == false)
+            {
+                oList.result = 0;
+                oList.value = "Usuario o contraseña incorrecta";
+                return oList;
+            }
+            else
+            {
+                oList.result = 1;
+                oList.value = "Autenticación verificada!";
+                return oList;
+            }
         }
 
     }

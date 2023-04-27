@@ -31,6 +31,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     };
 });
 
+builder.WebHost.UseUrls("http://0.0.0.0:5000");
 
 var app = builder.Build();
 
@@ -41,10 +42,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllers();
+app.UseRouting();
 
-app.Run();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
+app.MapGet("/", () => "API is running!");
+
+app.Run("http://0.0.0.0:8080");
+//app.Run();

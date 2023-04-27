@@ -5,5 +5,6 @@ namespace TokenNet6.Models
     {
         [Required]
         public int result { get; set; }
+        public string value { get; set; }
     }
 }

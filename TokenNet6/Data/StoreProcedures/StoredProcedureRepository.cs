@@ -39,6 +39,11 @@ namespace TokenNet6.Data.StoreProcedures
             catch (Exception ex)
             {
                 ErrorResult.ErrorMessage = ex.Message;
+                oList.Add(new DBBoolResult()
+                {
+                    result = 0,
+                    value = ex.Message
+                });
                 return oList;
             }        
         }

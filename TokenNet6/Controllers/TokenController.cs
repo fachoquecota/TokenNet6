@@ -21,19 +21,28 @@ namespace TokenNet6.Controllers
 
         [HttpPost]
         [Route("GetTokenLogin")]
-        public dynamic GetToken([FromQuery] LoginModel loginModel)
+        public dynamic GetToken([FromQuery]LoginModel loginModel)
         {
             var result = _tokenNet.LoginValitation(loginModel);
-
+            string response = "";
             if (result is null)
-                return BadRequest(new { message = "Credenciales incorrectas" });
-
-            string jwtToken = _tokenService.GenerateToken(result);
-
-            return new
+                return BadRequest(new { message = result });
+            if (result.result == 1)
             {
-                message = jwtToken
-            };
+                response = _tokenService.GenerateToken(loginModel);
+                return new
+                {
+                    Result = result.value,
+                    message = response
+                };
+            }
+            else
+            {
+                return new
+                {
+                    Result = result.value
+                };
+            }  
         }      
     }
 }
