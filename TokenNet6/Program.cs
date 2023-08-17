@@ -54,5 +54,5 @@ app.UseEndpoints(endpoints =>
 });
 app.MapGet("/", () => "API is running!");
 
-app.Run("http://0.0.0.0:8080");
-//app.Run();
+//app.Run("http://0.0.0.0:8080");
+app.Run();
