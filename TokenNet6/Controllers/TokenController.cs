@@ -21,28 +21,36 @@ namespace TokenNet6.Controllers
 
         [HttpPost]
         [Route("GetTokenLogin")]
-        public dynamic GetToken([FromQuery]LoginModel loginModel)
+        public IActionResult GetToken([FromBody] LoginModel loginModel)
         {
-            var result = _tokenNet.LoginValitation(loginModel);
-            string response = "";
-            if (result is null)
-                return BadRequest(new { message = result });
+            if (loginModel == null)
+            {
+                return BadRequest(new { message = "Invalid login model" });
+            }
+
+            var result = _tokenNet.LoginValidation(loginModel);
+            if (result == null)
+            {
+                return BadRequest(new { message = "Login validation failed" });
+            }
+
             if (result.result == 1)
             {
-                response = _tokenService.GenerateToken(loginModel);
-                return new
+                var token = _tokenService.GenerateToken(loginModel);
+                return Ok(new
                 {
                     Result = result.value,
-                    message = response
-                };
+                    Token = token
+                });
             }
-            else
+
+            return Unauthorized(new
             {
-                return new
-                {
-                    Result = result.value
-                };
-            }  
-        }      
+                Result = result.value,
+                message = "Invalid login credentials"
+            });
+        }
+
+
     }
 }

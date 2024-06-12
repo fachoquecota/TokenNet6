@@ -4,6 +4,6 @@ namespace TokenNet6.Interfaces
 {
     public interface ISprBusiness
     {
-        List<DBBoolResult> LoginValitation(LoginModel loginModel);
+        List<DBBoolResult> LoginValidation(LoginModel loginModel);
     }
 }

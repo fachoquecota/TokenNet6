@@ -7,7 +7,7 @@ namespace TokenNet6.Data.StoreProcedures
 {
     public class StoredProcedureRepository : ISprBusiness
     {
-        public List<DBBoolResult> LoginValitation(LoginModel loginModel)
+        public List<DBBoolResult> LoginValidation(LoginModel loginModel)
         {
             //* Utilizamos DBBoolResult de tipo Models para recepcionar la información porque
             //* cabe la posibilidad de que se aumenten más columnas en la respuesta del procedimiento almacenado

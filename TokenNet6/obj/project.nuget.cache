@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Nlb7u6e5NhnYyjHY173s1zR6i+/coUrpRXAsta8PTCkGe7cMDWV1p6jc9vipYlMgyKTZfcHipTAbo7A4rTv50g==",
+  "dgSpecHash": "EEc0lfvkZZc=",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\TokenNet6.csproj",
   "expectedPackageFiles": [
@@ -36,5 +36,26 @@
     "C:\\Users\\user\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"System.Data.SqlClient\" 4.8.5 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"System.IdentityModel.Tokens.Jwt\" 6.28.1 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

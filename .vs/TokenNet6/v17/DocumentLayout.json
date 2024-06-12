@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{817520A9-4CB7-43F7-8C97-5D60C13037AB}|TokenNet6\\TokenNet6.csproj|c:\\users\\user\\documents\\3 .net core\\tokennet6\\tokennet6\\tokennet6\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817520A9-4CB7-43F7-8C97-5D60C13037AB}|TokenNet6\\TokenNet6.csproj|solutionrelative:tokennet6\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817520A9-4CB7-43F7-8C97-5D60C13037AB}|TokenNet6\\TokenNet6.csproj|c:\\users\\user\\documents\\3 .net core\\tokennet6\\tokennet6\\tokennet6\\data\\storeprocedures\\storedprocedurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817520A9-4CB7-43F7-8C97-5D60C13037AB}|TokenNet6\\TokenNet6.csproj|solutionrelative:tokennet6\\data\\storeprocedures\\storedprocedurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817520A9-4CB7-43F7-8C97-5D60C13037AB}|TokenNet6\\TokenNet6.csproj|c:\\users\\user\\documents\\3 .net core\\tokennet6\\tokennet6\\tokennet6\\business\\businesslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817520A9-4CB7-43F7-8C97-5D60C13037AB}|TokenNet6\\TokenNet6.csproj|solutionrelative:tokennet6\\business\\businesslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817520A9-4CB7-43F7-8C97-5D60C13037AB}|TokenNet6\\TokenNet6.csproj|c:\\users\\user\\documents\\3 .net core\\tokennet6\\tokennet6\\tokennet6\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817520A9-4CB7-43F7-8C97-5D60C13037AB}|TokenNet6\\TokenNet6.csproj|solutionrelative:tokennet6\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817520A9-4CB7-43F7-8C97-5D60C13037AB}|TokenNet6\\TokenNet6.csproj|c:\\users\\user\\documents\\3 .net core\\tokennet6\\tokennet6\\tokennet6\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817520A9-4CB7-43F7-8C97-5D60C13037AB}|TokenNet6\\TokenNet6.csproj|solutionrelative:tokennet6\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817520A9-4CB7-43F7-8C97-5D60C13037AB}|TokenNet6\\TokenNet6.csproj|c:\\users\\user\\documents\\3 .net core\\tokennet6\\tokennet6\\tokennet6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{817520A9-4CB7-43F7-8C97-5D60C13037AB}|TokenNet6\\TokenNet6.csproj|solutionrelative:tokennet6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817520A9-4CB7-43F7-8C97-5D60C13037AB}|TokenNet6\\TokenNet6.csproj|c:\\users\\user\\documents\\3 .net core\\tokennet6\\tokennet6\\tokennet6\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817520A9-4CB7-43F7-8C97-5D60C13037AB}|TokenNet6\\TokenNet6.csproj|solutionrelative:tokennet6\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\appsettings.json",
+              "RelativeDocumentMoniker": "TokenNet6\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\appsettings.json",
+              "RelativeToolTip": "TokenNet6\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-12T09:20:14.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "TokenNet6\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\Services\\TokenService.cs",
+              "RelativeToolTip": "TokenNet6\\Services\\TokenService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T09:20:10.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StoredProcedureRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\Data\\StoreProcedures\\StoredProcedureRepository.cs",
+              "RelativeDocumentMoniker": "TokenNet6\\Data\\StoreProcedures\\StoredProcedureRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\Data\\StoreProcedures\\StoredProcedureRepository.cs",
+              "RelativeToolTip": "TokenNet6\\Data\\StoreProcedures\\StoredProcedureRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T09:13:42.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "TokenNet6\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "TokenNet6\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAD4vxUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T09:13:42.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BusinessLogin.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\Business\\BusinessLogin.cs",
+              "RelativeDocumentMoniker": "TokenNet6\\Business\\BusinessLogin.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\Business\\BusinessLogin.cs",
+              "RelativeToolTip": "TokenNet6\\Business\\BusinessLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T09:13:42.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "TokenNet6\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\Models\\LoginModel.cs",
+              "RelativeToolTip": "TokenNet6\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T09:13:26.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "TokenNet6\\Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet6\\TokenNet6\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "TokenNet6\\Controllers\\TokenController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T09:12:51.82Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

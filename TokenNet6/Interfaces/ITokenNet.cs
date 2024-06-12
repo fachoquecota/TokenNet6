@@ -4,6 +4,6 @@ namespace TokenNet6.Interfaces
 {
     public interface ITokenNet
     {
-        DBBoolResult LoginValitation(LoginModel loginModel);
+        DBBoolResult LoginValidation(LoginModel loginModel);
     }
 }

@@ -73,7 +73,6 @@ C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6
 C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\scopedcss\bundle\TokenNet6.styles.css
-C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\TokenNet6.csproj.CopyComplete
 C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\TokenNet6.dll
 C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\refint\TokenNet6.dll
 C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\TokenNet6.pdb
@@ -82,3 +81,10 @@ C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6
 C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\TokenNet6.sourcelink.json
+C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\staticwebassets\msbuild.TokenNet6.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\staticwebassets\msbuild.build.TokenNet6.props
+C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TokenNet6.props
+C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TokenNet6.props
+C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet6\TokenNet6\obj\Debug\net6.0\TokenNet6.csproj.Up2Date
